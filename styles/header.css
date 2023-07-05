@@ -2,44 +2,61 @@
     position: sticky;
     background-color: var(--main-bg-color);
     z-index: 999;
-    width: 100%;
+
+    /*vw hace referencia al ancho de la ventana
+    es muy util para responsive para que el elemento 
+    siempre se adacte al viewwpor que los misimo 
+    que el anche de la ventana*/
+    width: 1200px;
+    
+    /* margin: 0 auto; el «0» indica que los margenes superior e inferior sean cero 
+    y el «auto» para que el espacio que sobre del ancho lo reparta 
+    en dos partes iguales y así la capa quede centrada.*/
+    margin: 0 auto;
     top: 0;
     padding: 10px;
     display: flex;
     justify-content: space-between;
+
+    /*Parta alinear todo el contenido*/
+    align-items: center;
     
 }
 
-.header__nav{
+.header .header__image{
+    width: 20%;
+}
+
+img{
+    width: 90%;
+}
+
+.header .header__nav{
+    width: 25%;
+    padding: 0 10px;
     display: flex;
     justify-content: space-between;
 }
 
-.header__image{
-    width: 150px;
-    padding: 0;
-    margin: 0;
-}
-
-.header__image img{
-    width: 90%;
-    top: 100;
-    
-}
-
 .header .header__nav .header__nav__list{
+    width: 100%;
     list-style: none; 
-    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 0;
+    gap: 10px;
 }
 
 .header__nav .header__nav__list .header__nav__list__item a{
+    font-size: 1.3rem;
     text-decoration: none;
+    color: var(--main-text-color);
+    transition: opacity 300ms;
     
 }
 
-.header__nav__list{
-    display: flex;
-    
+.header__nav .header__nav__list .header__nav__list__item a:hover{
+    opacity: 0.6;
 }
 

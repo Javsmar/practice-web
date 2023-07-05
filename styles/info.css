@@ -1,0 +1,38 @@
+.info{
+    height: 75vh;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content:flex-start;
+}
+
+
+.info .info__content{
+    height: 75vh;
+    text-align:justify;
+    position: relative;
+    display: flex;
+    
+}
+
+h3{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin: 0;
+    padding: 0 33px 0 0;
+    height: 300px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    margin: 0;
+    padding: 0 0 0 10px;
+    
+}
+
+p{
+    width: 100%;
+    padding: 10px
+}

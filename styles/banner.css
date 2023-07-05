@@ -1,23 +1,76 @@
 .banner{
-    height: 75vh;
+    width: 1200px;
+    margin: 0 auto;
+    top: 0;
+}
+.main__banner{
+    width: 1200px;
+    height: 64vh;
+    text-align: center;
     position: relative;
     display: flex;
+    justify-content: space-between;
+    
+    
+    
+    
 }
 
-.banner .banner__content{
+.main__banner .banner__content{
     z-index: 1;
+    height: 50vh;
     position: relative;
+    text-align: left;
+    padding: 128px 0 35px 35px;
+
 }
 
-.banner .banner__image{
-    position: absolute;
-    top: 0px;
-    left:0px;
-    bottom: 0px;
-    right: 0px;
-    background-image: url(../assets/app/hulk.jpg);
-    background-repeat: no-repeat;
+.main__banner .banner__image{
     width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
     z-index: 0;
-    opacity: 0.3;
+    opacity: 0.8;
 }
+.banner__hulk__image{
+    width: 70%;
+    opacity: .8;
+    top: 0;
+    filter: hue-rotate(358deg);
+    filter: saturate(400%);
+    
+}
+
+.bruce__banner{
+    font-size: 2rem;
+}
+
+.banner__hulk{
+    font-size: 1rem;
+    padding: 0;
+}
+
+.banner__parrafo{
+    font-size: 1rem;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.skills{
+    border: solid 2px rgb(2, 69, 2);
+    border-radius: 9px;
+    width: 29%;
+    height: 64vh;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    text-align: center; 
+}
+.mis__skills{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+
