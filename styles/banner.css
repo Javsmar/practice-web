@@ -22,6 +22,7 @@
     position: relative;
     text-align: left;
     padding: 128px 0 35px 35px;
+    
 
 }
 
@@ -34,12 +35,11 @@
     opacity: 0.8;
 }
 .banner__hulk__image{
-    width: 70%;
+    width: 69.5%;
     opacity: .8;
     top: 0;
     filter: hue-rotate(358deg);
     filter: saturate(400%);
-    
 }
 
 .bruce__banner{
@@ -58,19 +58,112 @@
 }
 
 .skills{
-    border: solid 2px rgb(2, 69, 2);
     border-radius: 9px;
-    width: 29%;
-    height: 64vh;
+    width: 31%;
+    position: relative;
     top: 0;
     bottom: 0;
     display: flex;
     text-align: center; 
-}
-.mis__skills{
-    width: 100%;
-    padding: 10px;
-    text-align: center;
+    flex-direction: column;
+    align-items: center;
 }
 
+.skill__contenedor{
+    left: 0;
+    right: 0;
+    position: absolute;
+    padding: 15px;
+    border-radius: 5px;
+    background: linear-gradient(450deg,rgba(32, 100, 32, 0.053), rgb(1, 105, 32));
+    
+}   
+
+.skill__hulk{
+    width: 100%;
+    padding: 25px 25px;
+    
+}
+
+
+.details__skills{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    position: relative;
+    border: 2px solid #29879c;
+    border-radius: 20px;
+}
+
+.menu div{
+    position: relative;
+    width: 0;
+    height: 5px;
+    background-color: #29879c;
+}
+
+/*Animación*/
+
+#fuerza-menu{
+    animation: fuerza-barra 2s forwards;
+}
+
+@keyframes fuerza-barra{
+    100%{
+        width: 100%;
+    }
+}
+
+#fuerza-salto{
+    animation: salto-barra 2s forwards;
+}
+
+@keyframes salto-barra{
+    100%{
+        width: 90%;
+    }
+}
+
+#fuerza-velocidad{
+    animation: salto-velocidad 2s forwards;
+}
+
+@keyframes salto-velocidad{
+    100%{
+        width: 90%;
+    }
+}
+
+#fuerza-resistencia{
+    animation: salto-resistencia 2s forwards;
+}
+
+@keyframes salto-resistencia{
+    100%{
+        width: 90%;
+    }
+}
+
+#fuerza-inmunidad{
+    animation: salto-inmunidad 2s forwards;
+}
+
+@keyframes salto-inmunidad{
+    100%{
+        width: 90%;
+    }
+}
+
+#fuerza-regeneracion{
+    animation: salto-regeneracion 2s forwards;
+}
+
+@keyframes salto-regeneracion{
+    100%{
+        width: 90%;
+    }
+}
 
