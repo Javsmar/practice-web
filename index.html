@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/banner.css">
     <link rel="stylesheet" href="styles/info.css">
+    <link rel="stylesheet" href="styles/actor.css">
     <title>Hulk</title>
 </head>
 <body class="main-bg">
@@ -29,6 +30,7 @@
             <div class="banner__image">
                 <img class="banner__hulk__image" src="assets/app/44365.jpg" alt="">
             </div>
+            
             <div class="banner__content">
                 <h1 class="bruce__banner">BRUCE BANNER</h1>
                 <h2 class="banner__hulk">HULK</h2>
@@ -37,6 +39,7 @@
                 monster powered by his rage.
                 </p>
             </div>
+            
             <div class="skills">
                 <div class="skill__contenedor">
                     <h2>Skills</h2>
@@ -101,26 +104,96 @@
             </div>
         </section>
     </main>    
-        <section class="info">
-            <div class="info__content">
-                <div class="info__profile">
-                    <h3>PROFILE</h3>
+    <section class="info">
+        <div class="info__content">
+            <div class="info__profile">
+                <h3 class="profile">PROFILE</h3>
+            </div>
+            <div class="info__biography">
+                <h2 class="biography">BIOGRAPHY</h2>
+                <P class="parrafo__biography">Bruce Banner is a renowmed scientist whit seven Ph.D.s
+                and expertise in the field of gamma radiation. At Culver University
+                in Virginia. General Thunderbolt Ross meets with Dr. Bruce Banner the
+                colleage and boyfriend of his daugther Betty, regarding an experiment
+                that Ross claims is meant to make hummans immune to gamma radiation. The
+                experiment-part of a world War II era "super soldier" program that Ross
+                hopes to recreate-falls, and the exposure to gamma radiation causes Banner
+                to transform into the Hulk for brief periods of time, whenever his
+                heart rate rises above 200.
+                </P>
+            </div>
+            <div class="info__image">
+                <img class="imagen" src="assets/app/hulk_sin_fondo.png" alt="Biography hulk">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="actor">
+        <div class="actor__content">
+            <div class="actor__and__about">
+                <div class="actor__about">
+                    <h2 class="actor__about_h2">ABOUT ACTOR</h2>
                 </div>
-                <div info_biography>
-                    <h2>BIOGRAPHY</h2>
-                    <P>Bruce Banner is a renowmed scientist whit seven Ph.D.s
-                    and expertise in the field of gamma radiation. At Culver University
-                    in Virginia. General Thunderbolt Ross meets with Dr. Bruce Banner the
-                    colleage and boyfriend of his daugther Betty, regarding an experiment
-                    that Ross claims is meant to make hummans immune to gamma radiation. The
-                    experiment-part of a world War II era "super soldier" program that Ross
-                    hopes to recreate-falls, and the exposure to gamma radiation causes Banner
-                    to transform into the Hulk for brief periods of time, whenever his
-                    heart rate rises above 200.
-                    </P>
+                <div class="actor__image">
+                    <img class="imagen" src="assets/app/actor.jpg" alt="Actor Hulk">
                 </div>
             </div>
-        </section>
+
+            <div class="actor_about_biography">
+                <h2 class="the_actor">MARK RUFFALO</h2>
+                <p class="mark_parrafo">
+                    Mark Ruffalo nació en 1967 en Kenosha Wisconsin, Estados Unidos.
+                    Es hijo de Marie Rose, peluquera y estilista, y de Frank Lawrence 
+                    Ruffalo, un pintor de construcciones. Tiene dos hermanas, Tania y 
+                    Nicole, y un hermano llamado Scott. Mark ha descripto su infancia
+                    como una etapa feliz de su vida, asistiendo a una escuela progresista,
+                    y siendo criado en las cercanías de la comunidad de Bahaì, de la que 
+                    su padre era miembro. Pasó su adolescencia en Virginia Beach, donde
+                    trabajaba su padre, y se graduó de First Colonial High School. Mas 
+                    tarde se mudo junto a su familia a San Diego y luego a Los Ángeles, en 
+                    donde tomo clases en el conservatorio de Stella Adler, y fue el 
+                    cofundador del Orpheus Theatre Company (OTC). Con esta compañía, 
+                    logro escribir, dirigir y protagonizar varias obras, mientras 
+                    trabajaba en un bar para ganar su sustento.
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <form class="form" action="registro.html" method="post">
+                <div class="form__element">
+                    <label class="form__label" for="name">Name</label>
+                    <input class="form__input" type="text" id="name" placeholder="Add your name" name="name" required>
+                </div>
+                <div class="form__element">
+                    <label class="form__label" for="apellido">Apellido</label>
+                    <input class="form__input" type="text" id="name" placeholder="Add your apellido" name="apellido" required>
+                </div>
+                <div class="form__element">
+                    <label class="form__label" for="email">email</label>
+                    <input  class="form__input" type="email" id="email" placeholder="Add your email" name="email" required>
+                </div>
+                <div class="form__element">
+                    <label class=""></label>
+                    <input type="text">
+                </div>
+                <div class="form__element">
+                    <label class=""></label>
+                    <input type="text">
+                </div>
+                <div class="form__element">
+                    <label class=""></label>
+                    <input type="text">
+                </div>
+                <div class="form__element">
+                    <label class=""></label>
+                    <input type="text">
+                </div>
+            </form>
+        </div>
+
+    </section>
+
     
 </body>
 </html>

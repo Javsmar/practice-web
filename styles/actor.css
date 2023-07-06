@@ -1,0 +1,43 @@
+.actor{
+    width: 1200px;
+    height: 75vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+.actor__content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actor__content .actor__and__about{
+    width: 100%;
+}
+.actor__content .actor__and__about .actor__image .imagen{
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    transform:scaleX(-1);
+}
+
+.actor__content .actor__and__about .actor__about{
+    width: 300px;
+    height: 325px;
+    font-size: 1.7rem;
+    position: absolute;
+    left: 0;
+    top:150px;
+    display: flex;
+    
+    transform: rotate(-90deg);
+    z-index: 1;
+}
+
+.actor__content .actor_about_biography{
+    width: 70%;
+    padding: 0 25px 50px 50px;
+    font-size: 1.4rem;
+    text-align: justify;
+    line-height: 29px;
+}
